@@ -1,0 +1,23 @@
+{
+    "name": "cypressautomation",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "license": "ISC",
+    "scripts": {
+        "test": "npx cypress run",
+        "headtest": "npx cypress run --headed",
+        "chrometest": "npx cypress run --headed --browser chrome",
+        "W3test": "npx cypress run --spec 'cypress/integration/sampleUItests/W3SchoolsTest.js'",
+        "recordDashboardTest": "npx cypress run --record --key 4203589c1424e9d1df51dec7d078a"
+    },
+    "dependencies": {
+        "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
+        "@cypress/browserify-preprocessor": "latest"
+    },
+    "devDependencies": {
+        "cypress": "^13.15.1",
+        "cypress-iframe": "^1.0.1",
+        "cypress-mochawesome-reporter": "^3.8.2"
+    }
+}

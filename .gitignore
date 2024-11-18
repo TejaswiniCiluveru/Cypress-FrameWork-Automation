@@ -1,0 +1,9 @@
+# Cypress default .gitignore
+node_modules/
+cypress/screenshots/
+cypress/videos/
+cypress/fixtures/
+cypress/results/
+.vscode/
+.DS_Store
+Thumbs.db
